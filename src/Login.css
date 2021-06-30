@@ -1,0 +1,51 @@
+.login{
+    background-color: white;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items:center; 
+}
+.MuiPaper-root{
+    margin: 100px 0;
+}
+.login__img{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    object-fit: contain;
+    width:100px;
+    margin-right: auto;
+    margin-left:auto;
+}
+.login__container{
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+}
+.login__container >h1{
+    padding: 20px;
+}
+
+.login__TextField{
+    width: 94%;
+    padding: 10px;
+}
+.login__container >p{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size:12px;
+}
+.login__container  > form >Button{
+    background-color: #f3cb69;
+    border: 1px solid #ff9900;
+}
+.login__container > form > Button:hover{
+    background-color:#f4c44c;
+}
+
+.login__container  > Button{
+    background-color: #f3cb69;
+    border: 1px solid #ff9900;
+}
+.login__container  > Button:hover{
+    background-color:#f4c44c;
+}
