@@ -9,7 +9,7 @@ function Checkout() {
     const history = () => useHistory;
     const [{basket,user}, dispatch] = useStateValue();
     return (
-        <div className='checkout'>
+        <div className='checkoutt'>
             <div className='checkout__left'>
                 <img 
                     className="checkout__ad"
