@@ -1,7 +1,6 @@
-import React from 'react'
-import './Home.css'
-import Product from './Product'
-import FlipMove from 'react-flip-move';
+import React from 'react';
+import './Home.css';
+import Product from './Product';
 
 function Home() {
     
