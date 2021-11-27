@@ -3,10 +3,10 @@ import './Product.css';
 import Button from '@material-ui/core/Button';
 import { useStateValue } from "./StateProvider"
 import Rating from '@material-ui/lab/Rating';
-import FlipMove from 'react-flip-move';
+
 
 function Product({id,title, image, price,rating}) {
-    const [state, dispatch] = useStateValue();
+    const [{basket}, dispatch] = useStateValue();
     const addToBasket = () =>{
         //dispatch the item into the data layer
         dispatch({
@@ -35,12 +35,12 @@ function Product({id,title, image, price,rating}) {
                     </div>
                 </div>
                 <img src={image} alt="" />
-                <Button variant="contained" color="default" onClick={addToBasket} >
+                <Button variant="contained" style={{backgroundColor:"#FCD404"}} onClick={addToBasket} >
                 Add to Basket
                 </Button>
                 
             </div>
-    )
+    );
 }
 
-export default Product
+export default Product;
