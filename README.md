@@ -20,3 +20,9 @@ https://clone-b3d9d.web.app/
 -----------------------------------------------
 ## First Page
 <img src="./images/FirstPage.png" alt="one" />
+
+## Login Page
+<img src="./images/LoginPage.png" alt="one" />
+
+## Checkout Page
+<img src="./images/CheckoutPage.png" alt="one" />
